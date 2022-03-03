@@ -43,10 +43,30 @@ repositories:
     type: git
     url: https://github.com/eclipse-cyclonedds/cyclonedds.git
     version: releases/0.7.x
+  ignition/gazebo:
+    type: git
+    url: https://github.com/osrf/gazebo.git
+    version: gazebo11
+  ignition/gazebo11_deps/ign-common:
+    type: git
+    url: https://github.com/ignitionrobotics/ign-common.git
+    version: ign-common3
+  ignition/gazebo11_deps/ign-fuel-tools:
+    type: git
+    url: https://github.com/ignitionrobotics/ign-fuel-tools.git
+    version: ign-fuel-tools4
+  ignition/gazebo11_deps/ign-transport:
+    type: git
+    url: git@github.com:ignitionrobotics/ign-transport.git
+    version: ign-transport8
+  ignition/gazebo11_deps/sdformat:
+    type: git
+    url: https://github.com/ignitionrobotics/sdformat.git
+    version: sdf9
   ignition/gazebo_ros_pkgs:
     type: git
     url: git@github.com:ros-simulation/gazebo_ros_pkgs.git
-    version: noetic-devel
+    version: foxy
   ignition/ign-cmake:
     type: git
     url: git@github.com:ignitionrobotics/ign-cmake.git
@@ -99,6 +119,10 @@ repositories:
     type: git
     url: https://github.com/ignitionrobotics/ign-sensors.git
     version: ign-sensors5
+  ignition/ign-tools:
+    type: git
+    url: https://github.com/ignitionrobotics/ign-tools.git
+    version: ign-tools1
   ignition/ign-transport:
     type: git
     url: git@github.com:ignitionrobotics/ign-transport.git
