@@ -45,8 +45,8 @@ repositories:
     version: releases/0.7.x
   ignition/gazebo:
     type: git
-    url: https://github.com/osrf/gazebo.git
-    version: gazebo11
+    url: git@github.com:tsungchent/gazebo.git
+    version: gazebo11_cc
   ignition/gazebo11_deps/ign-common:
     type: git
     url: https://github.com/ignitionrobotics/ign-common.git
@@ -445,8 +445,8 @@ repositories:
     version: foxy
   ros2/rosidl:
     type: git
-    url: https://github.com/ros2/rosidl.git
-    version: foxy
+    url: git@github.com:tsungchent/rosidl.git
+    version: foxy_cc
   ros2/rosidl_dds:
     type: git
     url: https://github.com/ros2/rosidl_dds.git
